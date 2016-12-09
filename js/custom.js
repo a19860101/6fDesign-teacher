@@ -1,0 +1,11 @@
+$(function(){
+	$("#date").datepicker({
+		dateFormat:"yy/mm/dd",
+	});
+	$("form").validate();
+	$("#dialog").dialog();
+	$("#sieve").sieve();
+	$("a.subject").click(function(){
+		$(this).next().slideToggle();
+	});
+});

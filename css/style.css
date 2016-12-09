@@ -1,0 +1,16 @@
+.detail {
+	display:none;
+}
+/*Dashboard 內的 news-title*/
+
+.news-title {
+	border-bottom:1px solid #666;
+	padding-bottom:5px;	
+}
+.news-name {
+	text-align:right;
+}
+.line {
+	margin-top:5px;
+	border-top:1px solid #aaa;
+}
